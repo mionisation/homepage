@@ -1,0 +1,16 @@
+---
+layout: base
+title: Blog
+---
+<h1>.blog</h1>
+<ul class="entries">
+	{% for post in site.posts %}
+	<li>
+		<section class = "post">
+			<div>
+				<a href = "{{ post.url }}"><p>{{ post.date | date: "%d.%m.%y" }}  -  {{post.title}}</p></a>
+			<div>
+		</section>
+	</li>
+	{% endfor %}
+</ul>

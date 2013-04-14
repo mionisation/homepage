@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<title> {% if page.title %} {{ page.title }} | {% endif %} - Michael Ion</title>
+	<meta charset="UTF-8" />
+	<meta name="description" content="Eine herkömmliche Ein-Mann-Website in den Händen eines der Spezies Homo Sapiens angehörenden Individuums namens Michael Ion" />
+	<meta name="keywords" content="Michael, Antonius, Ion" />
+	<meta name="author" content="Michael Ion" />
+	<link rel="stylesheet" type="text/css" href="/css/stylesheet.css"/>
+	<!--<link rel="stylesheet" type="text/css" href="/css/handheld.css" media="handheld" />-->
+    <!-- Schnellwahl-Icon: -->
+	<!--<link rel="icon" type="image/png" href="/bilder/sdicon.png"/>-->
+	<link rel="icon" type="image/png" href="/bilder/favicon.png"/>
+</head>
+
+<body>
+<div id="wrapper">
+	<nav id="navigation">
+		<ul>
+			<span><a href="/index.html"><div class="sidepic" id="reset"></div></a><li id="top"><a href="/index.html">&nbsp;.reset</a></li></span>
+			<span><a href="/zeug.html"><div class="sidepic" id="stuff"></div></a><li><a href="/zeug.html">&nbsp;.zeug</a></li></span>
+			<span><a href="/blog"><div class="sidepic" id="self"></div></a><li><a href="/blog">&nbsp;.blog</a></li></span>
+			<span><a href="/soz.html"><div class="sidepic" id="soc"></div></a><li id="bottom"><a href="/soz.html">&nbsp;.sozial</a></li></span>
+		</ul> 
+		
+			<a href="/en/"><img id="english" alt="English Language" src="/bilder/UnionJack.png"/></a>
+
+	</nav>
+
+	<section id="main">
+	{{ content }}
+	</section>
+	<footer>
+		<a href="/about.html"> &#169; 2012 Michael Ion - Alle Rechte vorbehalten </a>
+	</footer>
+</div>
+</body>
+</html>

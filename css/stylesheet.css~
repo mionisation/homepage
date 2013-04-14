@@ -1,0 +1,235 @@
+html,body{
+	font-family: Trebuchet MS, Helvetica, Arial;
+	background-color:#181818 ;
+	}
+
+#english{
+	float:right;
+	margin-bottom:100px;
+	opacity:0.1;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	
+}
+
+#english:hover{
+	opacity:0.5;
+	}	
+	
+nav#navigation .sidepic{
+	position:absolute;
+	width:40px;
+	height:40px;
+	margin-left:60px;
+	opacity:0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+nav#navigation .sidepic#reset{
+	background-image: url(../bilder/reset.png);
+	/*border-radius: 20px;
+	box-shadow:  0 0 5px #000000;*/
+}
+nav#navigation .sidepic#soc{
+	background-image: url(../bilder/soc.png);
+}
+
+nav#navigation .sidepic#self{
+	background-image: url(../bilder/self.png);
+}
+
+nav#navigation .sidepic#stuff{
+	background-image: url(../bilder/stuff.png);
+}
+
+#wrapper{
+	width: 850px; margin: 0 auto;
+	margin-top:75px;
+	text-align: left;
+	background:#D8D8D8;
+	border:solid 2px #D8D8D8;
+	box-shadow: inset 0 0 5px #000000;
+	border-radius: 7em 7em;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
+
+nav#navigation{
+	float:right;
+	margin-top:160px;
+}
+
+nav#navigation  li{
+	display:block;
+	background-color:#181818   ;
+	box-shadow:0 0 5px #000000;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+nav#navigation span:hover li{
+	margin-left:-40px;
+}
+
+li#top{
+	border-top-left-radius: 1em 1.5em;
+}
+
+li#bottom{
+	border-bottom-left-radius: 1em 1.5em;
+}
+nav#navigation span:hover .sidepic{
+	opacity:1;
+}
+
+nav#navigation ul li a{
+	color:#505050;
+	text-shadow:  2px 2px 2px #000000;
+	font-size:25px;
+	width:100px;
+	height:40px;
+	display:block;
+    position:relative;
+	text-align:left;
+	line-height:35px;
+}
+
+#main{
+	position:relative;
+	background-color:#D8D8D8 ;
+	margin:50px 50px 50px 50px;
+	width:600px;
+	min-height:450px;
+	font-size:1em;
+	/*
+	box-shadow: 0 0 15px #505050;
+	border: solid 5px #DCDCDC;
+	*/
+
+}
+#main p {
+	font-size:1em;
+}
+
+h1{
+	font-size: 2.5em;
+	font-weight: normal;
+}
+
+h2{
+	font-weight: normal;
+	font-size: 1.75em;
+}
+
+h3{
+	font-weight: normal;
+	font-size: 1.4em;
+}
+
+h4{
+	font-weight: normal;
+	font-size: 1.2em;
+}
+footer{
+	background-color:#505050;
+	color:black;
+	width:300px;
+	margin:0 auto;
+	text-align:center;
+	font-size:0.8em;
+	position:relative;
+	top:25px;
+	border-radius:0.5em;
+}
+
+.post p{
+	padding:20px;
+	margin-top:30px;
+	margin-left:50px;
+	box-shadow: inset 0px 0px 2px #505050;
+	border-radius: 0.25em;
+
+}
+
+ul.entries {
+	list-style-type: none;
+	padding:0px;
+	margin: 0px;
+}
+
+ul.entries p{
+	box-shadow: inset 0px 0px 2px #505050;
+	-webkit-transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	-o-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+}
+
+ul.entries p:hover{
+	box-shadow: inset 0 0 4px #505050;
+	background-color: #CDCDCD;
+}
+
+.soc div  p{
+	margin: 40px;
+	margin-right:10px;
+	float:left;
+	text-align: center;
+	width:100px;
+	height:100px;
+	box-shadow: inset 0 0 3px #505050;
+	border-radius: 50px;
+	-webkit-transition: all 0.25s linear;
+	-moz-transition: all 0.25s linear;
+	-o-transition: all 0.25s linear;
+	transition: all 0.25s linear;
+	
+}
+.soc div.anw  p:hover{
+	border-radius:47px;
+	box-shadow:  0 0 4px #505050;
+
+}
+
+.soc div p.inv{
+}
+
+.soc div  p  img{
+	opacity:1.0;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.soc div  p:hover  img{
+	padding-top:-2px;
+	opacity:0.6;
+}
+.stuff div  p{
+	padding-top:10px;
+	margin: 20px;
+	float:left;
+	text-align: center;
+	width:250px;
+	height:50px;
+	box-shadow: inset 0 0 2px #505050;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	border-radius: 0.25em;
+
+}
+
+.stuff div  p:hover{
+	box-shadow: inset 0 0 4px #505050;
+	background-color: #CDCDCD;
+}
